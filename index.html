@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>আপনার মানসিক বয়স কত?</title>
+  <style>
+    body { font-family: 'Siyam Rupali', sans-serif; max-width: 800px; margin: auto; padding: 20px; line-height: 1.7; }
+    h1, h2 { text-align: center; }
+    .question { margin-bottom: 20px; }
+    .question label { display: block; margin-left: 20px; }
+    button { display: block; margin: 30px auto; padding: 10px 20px; font-size: 16px; }
+    #result { font-size: 18px; font-weight: bold; text-align: center; margin-top: 30px; }
+  </style>
+</head>
+<body>
+  <h1>আপনার মানসিক বয়স কত?</h1>
+  <p>বাংলা সাইকোলজি টেস্ট – নিচে ১০টি প্রশ্ন আছে। প্রতিটির জন্য ৪টি অপশন আছে। সঠিক উত্তর বেছে নিয়ে শেষে স্কোর দেখুন।</p>
+
+  <form id="quizForm">
+    <div class="question">
+      <p>১. আপনার কোন ধরণের রঙ পছন্দ?</p>
+      <label><input type="radio" name="q1" value="20"> কালচে বা ধূসর</label>
+      <label><input type="radio" name="q1" value="30"> উজ্জ্বল</label>
+      <label><input type="radio" name="q1" value="80"> লালচে বা মিশ্র</label>
+      <label><input type="radio" name="q1" value="10"> অনুজ্জ্বল</label>
+    </div>
+
+    <div class="question">
+      <p>২. আপনি কোন ধরণের খাবার পছন্দ করেন?</p>
+      <label><input type="radio" name="q2" value="10"> সমুদ্রের খাবার</label>
+      <label><input type="radio" name="q2" value="30"> রেস্টুরেন্টের খাবার</label>
+      <label><input type="radio" name="q2" value="80"> ফাস্ট ফুড</label>
+      <label><input type="radio" name="q2" value="20"> স্যুপ</label>
+    </div>
+
+    <div class="question">
+      <p>৩. নিচের কোন পানীয়টি আপনার পছন্দ?</p>
+      <label><input type="radio" name="q3" value="40"> কোল্ড ড্রিঙ্কস</label>
+      <label><input type="radio" name="q3" value="20"> বিয়ার</label>
+      <label><input type="radio" name="q3" value="10"> রেড ওয়াইন</label>
+      <label><input type="radio" name="q3" value="30"> ফলের জুস</label>
+    </div>
+
+    <div class="question">
+      <p>৪. টিভিতে কোন অনুষ্ঠান দেখবেন?</p>
+      <label><input type="radio" name="q4" value="10"> নিউজ</label>
+      <label><input type="radio" name="q4" value="80"> কার্টুন</label>
+      <label><input type="radio" name="q4" value="30"> অ্যাকশন/কমেডি</label>
+      <label><input type="radio" name="q4" value="20"> ড্রামা/থ্রিলার</label>
+    </div>
+
+    <div class="question">
+      <p>৫. চকলেট সম্পর্কে আপনার মনোভাব?</p>
+      <label><input type="radio" name="q5" value="40"> খুব পছন্দ করি</label>
+      <label><input type="radio" name="q5" value="30"> ভালোবাসি</label>
+      <label><input type="radio" name="q5" value="20"> ছোটদের জন্য</label>
+      <label><input type="radio" name="q5" value="10"> স্বাস্থ্যের জন্য খাই না</label>
+    </div>
+
+    <div class="question">
+      <p>৬. ফেসবুক/টুইটার সম্পর্কে?</p>
+      <label><input type="radio" name="q6" value="30"> যোগাযোগের উপায়</label>
+      <label><input type="radio" name="q6" value="20"> সময়ের অপচয়</label>
+      <label><input type="radio" name="q6" value="80"> ছাড়া চলি না</label>
+      <label><input type="radio" name="q6" value="10"> দ্বিধায় আছি</label>
+    </div>
+
+    <div class="question">
+      <p>৭. স্মার্টফোন নিয়ে আপনার মন্তব্য?</p>
+      <label><input type="radio" name="q7" value="30"> উপকারী</label>
+      <label><input type="radio" name="q7" value="40"> দরকারী</label>
+      <label><input type="radio" name="q7" value="10"> কনফিউজিং</label>
+      <label><input type="radio" name="q7" value="20"> দামী ও অপ্রয়োজনীয়</label>
+    </div>
+
+    <div class="question">
+      <p>৮. জন্মদিন কিভাবে পালন করেন?</p>
+      <label><input type="radio" name="q8" value="10"> এটি বাচ্চাদের জন্য</label>
+      <label><input type="radio" name="q8" value="20"> পরিবারের সাথে খাওয়া</label>
+      <label><input type="radio" name="q8" value="30"> বন্ধুদের সাথে পার্টি</label>
+      <label><input type="radio" name="q8" value="40"> কেক কেটে উদযাপন</label>
+    </div>
+
+    <div class="question">
+      <p>৯. ক্লাসিক্যাল সংগীত সম্পর্কে?</p>
+      <label><input type="radio" name="q9" value="20"> প্রশান্তিকর</label>
+      <label><input type="radio" name="q9" value="80"> মোটেও পছন্দ না</label>
+      <label><input type="radio" name="q9" value="10"> অনেক পছন্দ করি</label>
+      <label><input type="radio" name="q9" value="30"> শুনতে ভালো লাগে</label>
+    </div>
+
+    <div class="question">
+      <p>১০. ছুটির দিনের সংজ্ঞা?</p>
+      <label><input type="radio" name="q10" value="40"> পার্কে ঘোরা</label>
+      <label><input type="radio" name="q10" value="30"> সমুদ্র দেখা</label>
+      <label><input type="radio" name="q10" value="20"> ভ্রমণ করা</label>
+      <label><input type="radio" name="q10" value="10"> সভ্যতা জানা</label>
+    </div>
+
+    <button type="button" onclick="calculateScore()">ফলাফল দেখুন</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script>
+    function calculateScore() {
+      const form = document.forms.quizForm;
+      let total = 0;
+
+      for (let i = 1; i <= 10; i++) {
+        const q = form[`q${i}`];
+        if (!q.value) {
+          alert(`প্রশ্ন ${i} এর উত্তর দিন`);
+          return;
+        }
+        total += parseInt(q.value);
+      }
+
+      let result = "";
+      if (total >= 350) result = "আপনার মানসিক বয়স ৯ বছর – আপনি বাচ্চা প্রকৃতির।";
+      else if (total >= 300) result = "আপনার মানসিক বয়স ১৬ বছর – আপনি প্রাণবন্ত এবং কিছুটা ইম্যাচিউর।";
+      else if (total >= 250) result = "আপনার মানসিক বয়স ১৬-২১ বছর – মাঝে মাঝে ম্যাচিউর, মাঝে মাঝে মজাদার।";
+      else if (total >= 200) result = "আপনার মানসিক বয়স ২১-২৯ বছর – তরুণ ও সচেতন।";
+      else if (total >= 150) result = "আপনার মানসিক বয়স ২৯-৫৫ বছর – বুঝদার ও পরিণত।";
+      else result = "আপনার মানসিক বয়স ৫৫ বছরের বেশি – অভিজ্ঞ এবং শান্ত।";
+
+      document.getElementById("result").textContent = `আপনার স্কোর: ${total} – ${result}`;
+    }
+  </script>
+</body>
+</html>
