@@ -1,1 +1,1 @@
-Idea from [Link](https://web.facebook.com/UMED.IBNEEMOSTAFA/posts/pfbid0MugDD17d4v11uLe4CmChCyYks4g2YWwT622rpD5EnW2FgDSjAJ2hU4ckSjRK3tESl?__cft__[0]=AZVnlS7xTrn45HErOnxpXf1zf9LsU_v9lJ2oo3lisyodtXULAcW0dvcbuVxvRpb9W6h7qEhPh0S1UY9o4mVs6Z4Y5kM9g772gbocgcprDzIOCAUNrkm8HLuTX0Bc7f2ePLh8gaIZotnjnSnBLshH2u2SPOzcir0gnVprdaryE-S_mg&__tn__=%2CO%2CP-R)
+Idea from [this](https://web.facebook.com/UMED.IBNEEMOSTAFA/posts/pfbid0MugDD17d4v11uLe4CmChCyYks4g2YWwT622rpD5EnW2FgDSjAJ2hU4ckSjRK3tESl)
